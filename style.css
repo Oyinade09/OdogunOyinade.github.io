@@ -1,82 +1,74 @@
-.big{
-    width: 820px;
-    height: 190px;
-    padding: 15px;
-}
-#first{
+.div{
+    width: 30%;
+    border: 1px solid black;
+    padding: 10px;
+    margin-right: 20px;
     float: left;
-    width: 250px;
-    height: 160px;
-    border: 1px solid black;
     background-color: grey;
-}
-#second{
-    float: left;
-    width: 250px;
-    height: 160px;
-    border: 1px solid black;
-    background-color: grey;
-    margin-left: 20px;
-}
-#third{
-    float: left;
-    width: 250px;
-    height: 160px;
-    border: 1px solid black;
-    background-color: grey;
-    margin-left: 20px;
-    margin-right: 0;
-}
-body{
-    text-align: center;
-}
-#chicken{
-    background-color: palevioletred;
-    border: 1px solid black;
-    border-top: 0;
-    border-right: 0;
-    position: relative;
-    bottom: 0;
-    left: 168px;
-    width: 80px;
-    height: 15px;
-    font-size: 25% larger;
-    margin-top: 0;
-}
-#beef{
-    background-color: brown;
-    border: 1px solid black;
-    border-top: 0;
-    border-right: 0;
-    position: relative;
-    bottom: 0;
-    left: 168px;
-    width: 80px;
-    height: 15px;
-    font-size: 25% larger;
-    margin-top: 0;
-}
-#sushi{
-    background-color: yellow;
-    border: 1px solid black;
-    border-top: 0;
-    border-right: 0;
-    position: relative;
-    bottom: 0;
-    left: 168px;
-    width: 80px;
-    height: 15px;
-    font-size: 25% larger;
-    margin-top: 0;
+    height: 200px;
 }
 h1{
-    font-size: 75% larger;
+    margin-bottom: 30px;
     text-align: center;
-   
 }
-@media (min-width: 992px) {
-    
+body{
+    margin: 0;
+    padding: 0;
+}
+#largest{
+
+    background-color: aqua;
 }
 * {
     box-sizing: border-box;
+}
+#p1{
+    background-color: palevioletred;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid black;
+    border-right: 0;
+    border-top: 0;
+    margin: 0px;
+    margin-left: 170px;
+    font-weight: bold;
+}
+#p2{
+    background-color: brown;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid black;
+    border-right: 0;
+    border-top: 0;
+    margin: 0px;
+    margin-left: 170px;
+    font-weight: bold;
+    color: white;
+}
+#p3{
+    background-color: yellow;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    border: 1px solid black;
+    border-right: 0;
+    border-top: 0;
+    margin: 0px;
+    margin-left: 170px;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    overflow: auto;
+}
+#div1{
+    margin-left: 20px;
+}
+@media (min-width: 992px) and (max-width: 1199px){
+    .div{
+        width: 15%;
+        height: 150px;
+    }
 }
